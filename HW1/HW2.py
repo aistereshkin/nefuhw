@@ -1,3 +1,4 @@
+n = int(input("Enter a number = "))
 def is_beauty(n):
     string_repr = str(abs(n))
     digits_sum = 0
@@ -7,4 +8,4 @@ def is_beauty(n):
         return False
     else:
         return True
-print (is_beauty(1020))
+print (is_beauty(n))
