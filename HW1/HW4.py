@@ -1,3 +1,4 @@
+n = int(input("Enter a number = "))
 def is_prime(n):
     if n == 1:
         return False
@@ -6,4 +7,4 @@ def is_prime(n):
             return False
         else:
             return True
-print (is_prime(10))
+print (is_prime(n))
