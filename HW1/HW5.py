@@ -1,3 +1,4 @@
+n = int(input("Enter a number = "))
 def is_self_dividing(n):
     get_digit_dividing = 0
     string_repr = len(str(n))
@@ -8,4 +9,4 @@ def is_self_dividing(n):
         return True
     else:
         return False
-print(is_self_dividing(128))
+print(is_self_dividing(n))
